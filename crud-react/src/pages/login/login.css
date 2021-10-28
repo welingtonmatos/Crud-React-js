@@ -2,17 +2,164 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    height: 100vh;
+    width: 100%;
     
 }
 
 .login-logo img {
-    margin-left: 150%;
-    height: 80px;
-    width: 80px;
+    margin-right: 10px;
+    height: 200px;
+    width: 200px;
 }
 
 .login-right {
-    margin-top: 15%;
+    background-color: #29292E;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+    padding: 20px;
+    width: 500px;
+    height: 500px;
+}
+
+.login-right h1{
+    background-color: #29292E;
+    font-family: 'Lobster';
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.login-right h4{
+    font-family: 'Roboto';
+    font-weight: 300;
+    margin-top: 40px;
+    font-size: 17px;
+    font-weight: 500;
+    background-color: #29292E;
+    color: white;
+    margin-left: 20px;
+}
+
+.LoginInputEmail {
+    display: flex;
+    align-items: center;
+    color: gray;
+    background-color: #1A1A1D;
+    border-radius: 3px;
+    padding: 3px;
+    margin: 5px;
+    width: 98%;
+    height: 50px;
+    border-radius: 5px;
+
+    
+}
+
+.LoginInputEmail svg{
+    margin-left: 10px;
+    font-size: 25px;
+    background-color: #1A1A1D;
+}
+
+.LoginInputEmail input {
+    background: transparent;
+    width: 100%;
+    outline-width: 0;
+    color: white;
+    border: none;
+    font-size: 17px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.LoginInputPassword {
+    display: flex;
+    align-items: center;
+    color: gray;
+    background-color: #1A1A1D;
+    border-radius: 3px;
+    padding: 3px;
+    margin: 5px;
+    width: 98%;
+    height: 50px;
+    border-radius: 5px;
+}
+
+.LoginInputPassword svg{
+    margin-left: 10px;
+    font-size: 25px;
+    background-color: #1A1A1D;
+}
+
+.LoginInputPassword input {
+    background: transparent;
+    width: 100%;
+    outline-width: 0;
+    color: white;
+    border: none;
+    font-size: 17px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.entrar {
+    width: 99%;
+    color: white;
+    font-weight: 800;
+    height: 50px;
+    border-radius: 5px;
+    font-size: 18px;
+    margin-top: 5px;
+    cursor: pointer;
+    border: none;
+    
+    background-image: linear-gradient(200deg, #ef806f, #1f7285, #00d0ff, #1f7285, #ef806f);
+    background-size: 200% 100%;
+    display: flex;
     align-items: center;
     justify-content: center;
+
+    animation-name: identifier;
+    animation-duration: 5s;
+    animation-timing-function: ease-in-out;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+
+.cad {
+    background-color: #1A1A1D;
+    color: white;
+    font-weight: 800;
+    height: 30px;
+    border-radius: 5px;
+    font-size: 15px;
+    margin-left: 5px;
+    margin-top: 5px;
+    border: none;
+}
+
+.login-right button:hover {
+    background-color: #1f7285;
+    color: white;
+    cursor: pointer;
+}
+
+.login-eye {
+    background-color: #1A1A1D;
+    margin-top: 8px;
+    margin-right: 8px;
+    cursor: pointer;
+}
+
+@keyframes identifier {
+    0% {
+        background-position-x: 0%;
+    }
+    100% {
+        background-position-x: 100%;
+    }
 }
