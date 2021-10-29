@@ -6,8 +6,8 @@ import {
 } from 'react-router-dom';
 
 import Login from './pages/login/login';
+import Home from './pages/home/home';
 import Cadastro from './pages/cadastro/cadastro';
-
 
 function App() {
 
@@ -15,6 +15,7 @@ function App() {
     <Router>
       <Switch>
         <Route path="/" exact component= {Login} />
+        <Route path="/home" exact component= {Home} />
         <Route path="/cadastro" exact component= {Cadastro} />
       </Switch>
     </Router>
