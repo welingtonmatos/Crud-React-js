@@ -1,13 +1,23 @@
 import React from 'react';
-import './App.css';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route
+} from 'react-router-dom';
 
-import Login from '../src/pages/login'
+import Login from './pages/login/login';
+import Cadastro from './pages/cadastro/cadastro';
+
 
 function App() {
+
   return (
-    <div className="App">
-      <Login/>
-    </div>
+    <Router>
+      <Switch>
+        <Route path="/" exact component= {Login} />
+        <Route path="/cadastro" exact component= {Cadastro} />
+      </Switch>
+    </Router>
   );
 }
 

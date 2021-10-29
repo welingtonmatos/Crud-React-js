@@ -25,33 +25,35 @@ function Login() {
                 <h1>Lorem Ipsum Dolor</h1>
                 
                 <div className="LoginInputEmail">
-                    <MdOutlineEmail/>
+                    <MdOutlineEmail
+                        size= {20}
+                    />
                     <input 
                         type="email" 
                         placeholder="Digite seu e-mail"
-                        value={email}
-                        onChange={e => setEmail(e.target.value)}
+                        value= {email}
+                        onChange= {e => setEmail(e.target.value)}
                     />
                 </div>
 
                 <div className="LoginInputPassword">
                     <MdLockOpen/>
                     <input 
-                        type={show ? "text" : "password"}
+                        type= {show ? "text" : "password"}
                         placeholder="Digite sua senha"
-                        value={password}
-                        onChange={e => setPassword(e.target.value)}
+                        value= {password}
+                        onChange= {e => setPassword(e.target.value)}
                     />
                     <div className="login-eye">
                         {show ? (
                             <HiEye
-                                size={20}
-                                onClick={handleClick}
+                                size= {15}
+                                onClick= {handleClick}
                             />
                         ) : (
                             <HiEyeOff
-                                size={20}
-                                onClick={handleClick}
+                                size= {15}
+                                onClick= {handleClick}
                             />
                         )}
                     </div>
