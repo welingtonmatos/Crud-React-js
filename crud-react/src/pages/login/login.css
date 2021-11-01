@@ -147,7 +147,7 @@
 
 .login-eye {
     background-color: #1A1A1D;
-    margin-top: 8px;
+    align-items: center;
     margin-right: 8px;
     cursor: pointer;
 }

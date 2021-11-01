@@ -10,11 +10,11 @@ import { Table } from 'react-bootstrap';
 function Cadastro(props) {
 
     return (
-        <div className="cadastro">
-            <Form className="form-cadastro">
+        <div className="home">
+            <div className="form-home">
                 <h1>Usuários Cadastrados</h1>
 
-                <Table striped hover>
+                <Table striped className="tabela">
                     <thead>
                         <tr>
                             <th>#</th>
@@ -44,22 +44,24 @@ function Cadastro(props) {
                     </tbody>
                 </Table>
 
-                <Row className="linha2 mb-3">
-                    <Form.Group as={Col} className="form-btn">
-                        <Button className="codigo" type="submit">
-                            Código Fonte no GitHub
-                        </Button>
-                    </Form.Group>
-                </Row>
+                <Form className="linha2">
+                    <Row className="linha2 mb-3">
+                        <Form.Group as={Col} className="form-btn">
+                            <Button className="codigo" type="submit">
+                                Código Fonte no GitHub
+                            </Button>
+                        </Form.Group>
+                    </Row>
 
-                <Row className="linha2 mb-3">
-                    <Form.Group as={Col} className="form-btn">
-                        <Button className="sair" variant="danger" type="submit">
-                            Sair
-                        </Button>
-                    </Form.Group>
-                </Row>
-            </Form>
+                    <Row className="linha2 mb-3">
+                        <Form.Group as={Col} className="form-btn">
+                            <Button className="sair" variant="danger" type="submit">
+                                Sair
+                            </Button>
+                        </Form.Group>
+                    </Row>
+                </Form>
+            </div>
         </div>
     );
 }

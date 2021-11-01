@@ -1,9 +1,10 @@
-.cadastro {
+.home {
     display: flex;
     align-items: center;
     justify-content: center;
     height: 100vh;
     width: 100%;
+    overflow: hidden;
 
     background-image: linear-gradient(200deg, #ef806f, #1f7285, #00d0ff, #1f7285, #ef806f);
     background-size: 200% 100%;
@@ -18,7 +19,7 @@
     animation-iteration-count: infinite;
 }
 
-.form-cadastro {
+.form-home {
     background-color: #29292E;
     border-radius: 5px;
     display: flex;
@@ -31,18 +32,23 @@
     height: 650px;
 }
 
-.form-cadastro h1{
+.form-home h1{
     background-color: #29292E;
     font-family: 'Lobster';
     font-size: 40px;
     margin-bottom: 50px;
 }
 
-
+.tabela tr, td{
+    background-color: #1A1A1D;
+    color: white;
+}
 
 /*------ Botões --------*/
 
 .linha2 {
+    align-items: center;
+    justify-content: center;
     background: transparent;
     width: 80%;
     outline-width: 0;
@@ -53,10 +59,15 @@
 }
 
 .form-btn {
-   background: transparent;
+    background: transparent;
+    align-items: center;
+    justify-content: center;
+    margin-left: 32%;
 }
 
 .codigo {
+    align-items: center;
+    justify-content: center;
     width: 70%;
     color: white;
     font-weight: 800;
@@ -69,6 +80,8 @@
 }
 
 .sair {
+    align-items: center;
+    justify-content: center;
     width: 70%;
     color: white;
     font-weight: 800;
