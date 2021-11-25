@@ -47,28 +47,21 @@
 /*------ Botões --------*/
 
 .linha2 {
-    align-items: center;
-    justify-content: center;
-    background: transparent;
     width: 80%;
+    background: transparent;
     outline-width: 0;
     color: white;
     border: none;
     font-size: 17px;
-    margin-left: 150px;
 }
 
 .form-btn {
-    background: transparent;
-    align-items: center;
-    justify-content: center;
-    margin-left: 32%;
+   background: transparent;
+   margin-right: 100px;
 }
 
 .codigo {
-    align-items: center;
-    justify-content: center;
-    width: 70%;
+    width: 99%;
     color: white;
     font-weight: 800;
     height: 40px;
@@ -80,9 +73,7 @@
 }
 
 .sair {
-    align-items: center;
-    justify-content: center;
-    width: 70%;
+    width: 99%;
     color: white;
     font-weight: 800;
     height: 40px;

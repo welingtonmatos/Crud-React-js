@@ -27,7 +27,7 @@
     justify-content: center;
     align-items: center;
     margin-left: 50px;
-    padding: 10px;
+    padding: 20px;
     width: 900px;
     height: 650px;
 }
@@ -86,8 +86,8 @@
     border-radius: 3px;
     padding: 3px;
     margin: 5px;
-    width: 98%;
-    height: 50px;
+    width: 100%;
+    height: 100%;
     border-radius: 5px;  
 }
 
@@ -107,18 +107,17 @@
 /*------ Botões --------*/
 
 .linha2 {
+    width: 50%;
     background: transparent;
-    width: 90%;
     outline-width: 0;
     color: white;
     border: none;
     font-size: 17px;
-    margin-left: 10px;
-    margin-right: 10px;
 }
 
 .form-btn {
    background: transparent;
+   margin-right: 150px;
 }
 
 .cadastrar {
@@ -146,9 +145,6 @@
 }
 
 .voltar {
-    display: flex;
-    align-items: center;
-    justify-content: center;
     width: 99%;
     color: white;
     font-weight: 800;

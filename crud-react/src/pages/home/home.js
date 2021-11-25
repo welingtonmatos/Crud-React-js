@@ -45,16 +45,14 @@ function Cadastro(props) {
                 </Table>
 
                 <Form className="linha2">
-                    <Row className="linha2 mb-3">
-                        <Form.Group as={Col} className="form-btn">
-                            <Button className="codigo" type="submit">
-                                Código Fonte no GitHub
+                    <Row className="linha2">
+                        <Form.Group className="form-btn">
+                            <Button className="codigo" variant="primary" type="submit">
+                                Código no GitHub
                             </Button>
                         </Form.Group>
-                    </Row>
 
-                    <Row className="linha2 mb-3">
-                        <Form.Group as={Col} className="form-btn">
+                        <Form.Group className="form-btn">
                             <Button className="sair" variant="danger" type="submit">
                                 Sair
                             </Button>

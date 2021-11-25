@@ -8,7 +8,7 @@ import { Button } from 'react-bootstrap';
 
 import { BiChevronDown } from 'react-icons/bi';
 
-function Cadastro(props) {
+function Cadastro() {
 
     return (
         <div className="cadastro">
@@ -40,16 +40,11 @@ function Cadastro(props) {
 
                 <Row className="linha mb-3">
                     <Form.Group as={Col} className="campos">
-                        <BiChevronDown className="seta" size={30} />
-                        <Form.Select className="campoTexto" defaultValue="Telefone Residencial">
-                            <option>Telefone Residencial</option>
-                            <option>Telefone Comercial</option>
-                            <option>Celular</option>
-                        </Form.Select>
+                        <input className="campoTexto" placeholder="Telefone 1:" />
                     </Form.Group>
 
                     <Form.Group as={Col} className="campos">
-                        <input className="campoTexto" placeholder="Telefone:" />
+                        <input className="campoTexto" placeholder="Telefone 2:" />
                     </Form.Group>
 
                     <Form.Group as={Col} className="campos">
@@ -110,20 +105,20 @@ function Cadastro(props) {
                 </Row>
 
                 <Row className="linha2 mb-3">
-                    <Form.Group as={Col} className="form-btn">
+                    <Form.Group className="form-btn">
                         <Button className="cadastrar" variant="success" type="submit">
                             Cadastrar
                         </Button>
                     </Form.Group>
 
-                    <Form.Group as={Col} className="form-btn">
+                    <Form.Group className="form-btn">
                         <Button className="limpar" variant="danger" type="submit">
                             Limpar Campos
                         </Button>
                     </Form.Group>
 
-                    <Form.Group as={Col} className="form-btn">
-                        <Button className="voltar" type="submit">
+                    <Form.Group className="form-btn">
+                        <Button className="voltar" variant="primary" type="submit">
                             Voltar
                         </Button>
                     </Form.Group>
