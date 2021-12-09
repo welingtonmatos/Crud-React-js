@@ -6,8 +6,6 @@ import { Row } from 'react-bootstrap';
 import { Col } from 'react-bootstrap';
 import { Button } from 'react-bootstrap';
 
-import { BiChevronDown } from 'react-icons/bi';
-
 function Cadastro() {
 
     return (
