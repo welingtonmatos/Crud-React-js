@@ -65,17 +65,6 @@
     margin-top: 10px;
 }
 
-.seta {
-    background-color: #1A1A1D;
-    margin-top: 1px;
-}
-
-.cadastro-eye {
-    background: transparent;
-    margin-top: 2px;
-    margin-right: 4px;
-}
-
 /*------ Definições para todos os Campos --------*/
 
 .campos {
@@ -120,31 +109,7 @@
    margin-right: 150px;
 }
 
-.cadastrar {
-    width: 99%;
-    color: white;
-    font-weight: 800;
-    height: 40px;
-    border-radius: 5px;
-    font-size: 18px;
-    margin-top: 5px;
-    cursor: pointer;
-    border: none;
-}
-
-.limpar {
-    width: 99%;
-    color: white;
-    font-weight: 800;
-    height: 40px;
-    border-radius: 5px;
-    font-size: 18px;
-    margin-top: 5px;
-    cursor: pointer;
-    border: none;
-}
-
-.voltar {
+.botoes {
     width: 99%;
     color: white;
     font-weight: 800;
@@ -162,5 +127,81 @@
     }
     100% {
         background-position-x: 100%;
+    }
+}
+
+@media (max-width: 1366px){
+    .form-cadastro {
+        background-color: #29292E;
+        border-radius: 5px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: 50px;
+        padding: 20px;
+        width: 780px;
+        height: 595px;
+    }
+
+    .form-cadastro h1{
+        background-color: #29292E;
+        font-family: 'Lobster';
+        font-size: 30px;
+        margin-bottom: 5px;
+    }
+
+    .info {
+        background-color: #29292E;
+        font-family: 'Roboto';
+        font-size: 18px;
+        margin-right: 590px;
+        margin-bottom: 10px;
+    }
+
+    .EndLabel {
+        background-color: #29292E;
+        font-family: 'Roboto';
+        font-size: 18px;
+        margin-right: 670px;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+    
+    .labelSenha {
+        background-color: #29292E;
+        font-family: 'Roboto';
+        font-size: 18px;
+        margin-right: 600px;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+
+    /*---- Botões ----*/
+
+    .linha2 {
+        width: 50%;
+        background: transparent;
+        outline-width: 0;
+        color: white;
+        border: none;
+        font-size: 17px;
+    }
+    
+    .form-btn {
+       background: transparent;
+       margin-right: 150px;
+    }
+    
+    .botoes {
+        width: 99%;
+        color: white;
+        font-weight: 800;
+        height: 38px;
+        border-radius: 5px;
+        font-size: 18px;
+        margin-top: 4px;
+        cursor: pointer;
+        border: none;
     }
 }

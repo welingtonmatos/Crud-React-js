@@ -46,33 +46,22 @@
 
 /*------ Botões --------*/
 
-.linha2 {
+.linhaHome {
     width: 80%;
     background: transparent;
     outline-width: 0;
     color: white;
     border: none;
     font-size: 17px;
+    margin-top: 35px;
 }
 
-.form-btn {
+.form-btn-home {
    background: transparent;
-   margin-right: 100px;
+   margin-left: 90px;
 }
 
-.codigo {
-    width: 99%;
-    color: white;
-    font-weight: 800;
-    height: 40px;
-    border-radius: 5px;
-    font-size: 18px;
-    margin-top: 5px;
-    cursor: pointer;
-    border: none;
-}
-
-.sair {
+.botao {
     width: 99%;
     color: white;
     font-weight: 800;
@@ -90,5 +79,56 @@
     }
     100% {
         background-position-x: 100%;
+    }
+}
+
+@media (max-width: 1366px){
+    .form-home {
+        background-color: #29292E;
+        border-radius: 5px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: 50px;
+        padding: 30px;
+        width: 780px;
+        height: 595px;
+    }
+    
+    .form-home h1{
+        background-color: #29292E;
+        font-family: 'Lobster';
+        font-size: 30px;
+        margin-bottom: 50px;
+    }
+
+    /*------ Botões --------*/
+
+    .linhaHome {
+        width: 80%;
+        background: transparent;
+        outline-width: 0;
+        color: white;
+        border: none;
+        font-size: 17px;
+        margin-top: 25px;
+    }
+
+    .form-btn-home {
+        background: transparent;
+        margin-left: 80px;
+    }
+
+    .botao {
+        width: 99%;
+        color: white;
+        font-weight: 800;
+        height: 40px;
+        border-radius: 5px;
+        font-size: 18px;
+        margin-top: 5px;
+        cursor: pointer;
+        border: none;
     }
 }

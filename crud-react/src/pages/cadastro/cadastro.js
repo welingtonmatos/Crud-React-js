@@ -104,19 +104,19 @@ function Cadastro() {
 
                 <Row className="linha2 mb-3">
                     <Form.Group className="form-btn">
-                        <Button className="cadastrar" variant="success" type="submit">
+                        <Button className="botoes" variant="success" type="submit">
                             Cadastrar
                         </Button>
                     </Form.Group>
 
                     <Form.Group className="form-btn">
-                        <Button className="limpar" variant="danger" type="submit">
+                        <Button className="botoes" variant="danger" type="submit">
                             Limpar Campos
                         </Button>
                     </Form.Group>
 
                     <Form.Group className="form-btn">
-                        <Button className="voltar" variant="primary" type="submit">
+                        <Button className="botoes" variant="primary" type="submit">
                             Voltar
                         </Button>
                     </Form.Group>
