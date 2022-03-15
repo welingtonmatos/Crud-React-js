@@ -16,30 +16,60 @@ function Cadastro(props) {
                 <Table className="tabela">
                     <thead>
                         <tr>
-                            <th></th>
                             <th>Nome</th>
-                            <th>CPF</th>
+                            <th>Sobrenome</th>
                             <th>E-mail</th>
+                            <th>Ações</th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
-                            <td></td>
                             <td>Mark</td>
                             <td>Otto</td>
                             <td>@mdo</td>
+                            <td>
+                                <Form.Group className="form-btn-fundo">
+                                    <Button className="form-botao" variant="warning" type="submit">
+                                        Editar
+                                    </Button>
+
+                                    <Button className="form-botao" variant="danger" type="submit">
+                                        Excluir
+                                    </Button>
+                                </Form.Group>
+                            </td>
                         </tr>
                         <tr>
-                            <td></td>
                             <td>Jacob</td>
                             <td>Thornton</td>
                             <td>@fat</td>
+                            <td>
+                                <Form.Group className="form-btn-fundo">
+                                    <Button className="form-botao" variant="warning" type="submit">
+                                        Editar
+                                    </Button>
+
+                                    <Button className="form-botao" variant="danger" type="submit">
+                                        Excluir
+                                    </Button>
+                                </Form.Group>
+                            </td>
                         </tr>
                         <tr>
-                            <td></td>
                             <td>Larry the Bird</td>
                             <td>a</td>
                             <td>@twitter</td>
+                            <td>
+                                <Form.Group className="form-btn-fundo">
+                                    <Button className="form-botao" variant="warning" type="submit">
+                                        Editar
+                                    </Button>
+
+                                    <Button className="form-botao" variant="danger" type="submit">
+                                        Excluir
+                                    </Button>
+                                </Form.Group>
+                            </td>
                         </tr>
                     </tbody>
                 </Table>
@@ -48,19 +78,7 @@ function Cadastro(props) {
                     <Row className="linhaHome">
                         <Form.Group className="form-btn-home">
                             <Button className="botao" variant="success" type="submit">
-                                Cadastrar Usuário
-                            </Button>
-                        </Form.Group>
-
-                        <Form.Group className="form-btn-home">
-                            <Button className="botao" variant="warning" type="submit">
-                                Editar Usuário
-                            </Button>
-                        </Form.Group>
-
-                        <Form.Group className="form-btn-home">
-                            <Button className="botao" variant="danger" type="submit">
-                                Excluir Usuário
+                                Cadastrar Novo Usuário
                             </Button>
                         </Form.Group>
 
