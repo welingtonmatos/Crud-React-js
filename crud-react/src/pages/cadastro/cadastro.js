@@ -11,7 +11,7 @@ function Cadastro() {
     return (
         <div className="cadastro">
             <Form className="form-cadastro">
-                <h1>Cadastro</h1>
+                <h1>Cadastro de Clientes</h1>
 
                 <Form.Label className="info">Infomações Pessoais</Form.Label>
 
@@ -20,7 +20,7 @@ function Cadastro() {
                         <input
                         className="campoTexto"
                         type="text"
-                        placeholder="Nome:"
+                        placeholder="* Nome:"
                         minLength="3"
                         maxLength="100"
                         />
@@ -30,7 +30,7 @@ function Cadastro() {
                         <input
                         className="campoTexto"
                         type="text"
-                        placeholder="CPF:"
+                        placeholder="* CPF:"
                         mask="999.999.999-99"
                         />
                     </Form.Group>
@@ -38,13 +38,19 @@ function Cadastro() {
 
                 <Row className="linha mb-3">
                     <Form.Group as={Col} className="campos">
-                        <input className="campoTexto" placeholder="Telefone 1:" />
+                        <input className="campoTexto" placeholder="Telefone Residencial:" />
                     </Form.Group>
 
                     <Form.Group as={Col} className="campos">
-                        <input className="campoTexto" placeholder="Telefone 2:" />
+                        <input className="campoTexto" placeholder="Telefone Comercial:" />
                     </Form.Group>
 
+                    <Form.Group as={Col} className="campos">
+                        <input className="campoTexto" placeholder="Celular:" />
+                    </Form.Group>
+                </Row>
+
+                <Row className="linha mb-3">
                     <Form.Group as={Col} className="campos">
                         <input className="campoTexto" placeholder="E-mail:" />
                     </Form.Group>
@@ -54,21 +60,21 @@ function Cadastro() {
 
                 <Row className="linha mb-3">
                     <Form.Group as={Col} className="campos">
-                        <input className="campoTexto" placeholder="Cep:" />
+                        <input className="campoTexto" placeholder="* Cep:" />
                     </Form.Group>
 
                     <Form.Group as={Col} className="campos">
-                        <input className="campoTexto" placeholder="Logradouro:" />
+                        <input className="campoTexto" placeholder="* Logradouro:" />
                     </Form.Group>
 
                     <Form.Group as={Col} className="campos">
-                        <input className="campoTexto" placeholder="Bairro:" />
+                        <input className="campoTexto" placeholder="* Bairro:" />
                     </Form.Group>
                 </Row>
 
                 <Row className="linha mb-3">
                     <Form.Group as={Col} className="campos">
-                        <input className="campoTexto" placeholder="Cidade:" />
+                        <input className="campoTexto" placeholder="* Cidade:" />
                     </Form.Group>
 
                     <Form.Group as={Col} className="campos">
@@ -76,29 +82,7 @@ function Cadastro() {
                     </Form.Group>
 
                     <Form.Group as={Col} className="campos">
-                        <input className="campoTexto" placeholder="UF:" />
-                    </Form.Group>
-                </Row>
-
-                <Form.Label className="labelSenha">Cadastre sua Senha</Form.Label>
-
-                <Row className="linha mb-3">
-                    <Form.Group as={Col} className="campos">
-                        <input
-                            className="campoTexto"
-                            placeholder="Digite sua senha:"
-                            type="password"
-                            maxLength="6"
-                        />
-                    </Form.Group>
-
-                    <Form.Group as={Col} className="campos">
-                        <input
-                            className="campoTexto"
-                            placeholder="Repita a senha:"
-                            type="password"
-                            maxLength="6"
-                        />
+                        <input className="campoTexto" placeholder="* UF:" />
                     </Form.Group>
                 </Row>
 

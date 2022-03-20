@@ -11,21 +11,21 @@ function Cadastro(props) {
     return (
         <div className="home">
             <div className="form-home">
-                <h1>Usuários Cadastrados</h1>
+                <h1>Clientes Cadastrados</h1>
 
                 <Table className="tabela">
                     <thead>
                         <tr>
                             <th>Nome</th>
-                            <th>Sobrenome</th>
+                            <th>CPF</th>
                             <th>E-mail</th>
                             <th>Ações</th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
-                            <td>Mark</td>
-                            <td>Otto</td>
+                            <td>Welington Bento de Matos</td>
+                            <td>12345678911</td>
                             <td>@mdo</td>
                             <td>
                                 <Form.Group className="form-btn-fundo">
@@ -78,7 +78,7 @@ function Cadastro(props) {
                     <Row className="linhaHome">
                         <Form.Group className="form-btn-home">
                             <Button className="botao" variant="success" type="submit">
-                                Cadastrar Novo Usuário
+                                Cadastrar Novo Cliente
                             </Button>
                         </Form.Group>
 

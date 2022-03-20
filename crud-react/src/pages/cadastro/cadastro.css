@@ -86,7 +86,7 @@
     outline-width: 0;
     color: white;
     border: none;
-    font-size: 17px;
+    font-size: 15px;
     margin-left: 2px;
     margin-right: 5px;
     box-shadow: none;
@@ -106,7 +106,6 @@
 
 .form-btn {
    background: transparent;
-   margin-right: 150px;
 }
 
 .botoes {
@@ -116,7 +115,7 @@
     height: 40px;
     border-radius: 5px;
     font-size: 18px;
-    margin-top: 5px;
+    margin-top: 8px;
     cursor: pointer;
     border: none;
 }
@@ -145,14 +144,14 @@
     }
 
     .form-cadastro h1{
-        margin-top: 20px;
+        margin-top: 5px;
         background-color: #29292E;
         font-family: 'Lobster';
         font-size: 35px;
     }
 
     .info { 
-        margin-top: 2px;
+        margin-top: 18px;
         background-color: #29292E;
         font-family: 'Roboto';
         font-size: 18px;
@@ -165,7 +164,7 @@
         font-size: 18px;
         margin-right: 670px;
         margin-bottom: 10px;
-        margin-top: 8px;
+        margin-top: 2px;
     }
     
     .labelSenha {
@@ -174,7 +173,7 @@
         font-size: 18px;
         margin-right: 600px;
         margin-bottom: 10px;
-        margin-top: 8px;
+        margin-top: 2px;
     }
 
     /*---- Botões ----*/
@@ -185,12 +184,13 @@
         outline-width: 0;
         color: white;
         border: none;
-        font-size: 17px;
+        font-size: 15px;
     }
     
     .form-btn {
        background: transparent;
        margin-right: 150px;
+       font-size: 15px;
     }
     
     .botoes {
@@ -199,7 +199,7 @@
         font-weight: 800;
         height: 38px;
         border-radius: 5px;
-        font-size: 18px;
+        font-size: 15px;
         margin-top: 4px;
         cursor: pointer;
         border: none;
